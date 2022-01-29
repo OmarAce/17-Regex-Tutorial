@@ -59,11 +59,24 @@ This expression has 3 different character classes:
 - ```a-z``` matches with any lowercase alphabetic character
 
 ### The OR Operator
-
+| symbolizes the OR or 'Alternate' operator which essentially performs a either match whatever's to the left or right of the '|'. 
+'''
+a(b|c)     matches a string that has a followed by b or c (and captures b or c)
+'''
 ### Flags
+A regex usually comes within this form /abc/, where the search pattern is delimited by two slash characters /. At the end we can specify a flag with these values (we can also combine them each other):
+```
+g—Global search: the regex should be tested against all possible string matches.
 
+i—Case-insensitive search: When looking for a match in a string, case should be ignored.
+
+m—Multi-line search: a multi-line input string should be interpreted as multiple lines.
+```
 ### Character Escapes
+Character Escapes means an escaping backslash mush be present before special function characters for the Regex to look for strings. There are two in this Regex Expression:
 
+1. ```\/``` used to match with a forward slash ```/```
+2. ```\.``` used to match with a period ```.```
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This RegEx Tutorial was created by <a href="https://github.com/OmarAce">Omar Acevedo</a>
