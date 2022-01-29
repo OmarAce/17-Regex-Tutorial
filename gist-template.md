@@ -1,5 +1,7 @@
 # RegEx Tutoral
 
+#### **Note:** <a href="https://gist.github.com/OmarAce/e46792d10a337aa594a0f321fbdbc43f"> This is a link to the deployed Gist </a>
+
 Regex, or Regular Expression Syntax, is a useful tool for any web developer. Regular Expressions define a search pattern and are very useful for form input validation, web scraping, and filtering information. Regex may appear intimidating initially, but they can be broken down into smaller components so they can be more easily understood.
 
 ## Summary
